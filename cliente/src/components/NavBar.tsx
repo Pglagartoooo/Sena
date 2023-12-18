@@ -15,7 +15,12 @@ function NavBar(){
          <ul className="flex gap-x-2">
          {isAuthenticated ? (
           <>
-         
+          <li>
+            Bienvenido
+          </li>
+          <li>
+            <Link to="/" onClick={() => logout()}>Logout</Link>
+          </li>
          </>
          ) : (
          <>
