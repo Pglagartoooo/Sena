@@ -1,5 +1,4 @@
-import Imagenes from "../assets/Imagenes/xd.avif";
-import imagenes2 from "../assets/imagenes/empresa.jpg";
+
 import { Link } from "react-router-dom";
 
 export const MainArticle = () => {
